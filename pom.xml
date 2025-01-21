@@ -67,11 +67,18 @@
 			<scope>test</scope>
 		</dependency>
 
-	<!--	<dependency>
+	<!--Para convertir a una api en client solo agregar la dependencia -->
+		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
-		-->
+
+		<!--Monitoreo -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
